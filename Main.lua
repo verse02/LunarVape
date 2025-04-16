@@ -1,13 +1,6 @@
 repeat task.wait() until game:IsLoaded()
 if _G.LunarVape then _G.LunarVape:Uninject() end
 
-if identifyexecutor then
-  if table.find({'Xeno'},(identifyexecutor())) then
-    game:GetService('Players').LocalPlayer:Kick([[don't use xeno, it's skidded 😘]])
-    task.wait(0.4)
-    while true do end
-  end
-end
 
 local LunarVape
 local loadstring = function(script, name)
